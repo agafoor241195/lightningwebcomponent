@@ -1,0 +1,19 @@
+<template>
+    <div class="mybox">
+    ****** Type 1 using For each ******
+    <template for:each={city} for:item=c>
+        <p key={c} >{c}</p>
+    </template>
+    ********** Type 2 using Iterator *************
+    <template iterator:item={city}>
+        <p key={item.value}>{item.value}</p>
+    </template>
+    ****************** JSON Data *****************
+    <p></p>
+    Student Name : {student.Name}<p></p>
+    Student Salary :{student.Salary}<p></p>
+    Mobile Number :{student.Mobile}<p></p>
+    Email Address:{student.Email}
+</div>
+
+</template>

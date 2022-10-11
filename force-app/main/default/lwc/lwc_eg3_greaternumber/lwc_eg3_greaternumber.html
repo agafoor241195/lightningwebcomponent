@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Calculate - Greater Number" icon-name="utility:bug">
+        Your Name : {name} <p></p>
+        Your Mobile : {mobile}<p></p>
+        Your Salary : {salary}<p></p>
+        <lightning-input label="Enter the First Number" onchange={firstnum}></lightning-input>
+        <lightning-input label="Enter the Second Number" onchange={secondnum}></lightning-input>
+        <lightning-input label="Enter the Third Number" onchange={thirdnum}></lightning-input>
+        <lightning-button label="Calculate" variant="brand" icon-name="utility:add" onclick={calcme}>
+        </lightning-button>
+        
+    </lightning-card>
+</template>

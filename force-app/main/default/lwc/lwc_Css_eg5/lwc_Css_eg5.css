@@ -1,0 +1,15 @@
+.mybox
+{
+    color:red;
+    background-color: blueviolet;
+    height: 100px;
+    width: 500px;
+    font-size: 30px;
+
+}
+.mybt
+{
+    color: rgb(65, 240, 25);
+    background-color: rgb(96, 20, 228);
+    font-size: 30px;
+}
